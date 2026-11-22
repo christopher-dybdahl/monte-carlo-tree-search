@@ -13,22 +13,21 @@ This project provides a comprehensive Python implementation of the Monte Carlo T
 
 ## Project Structure
 
-- `src/MCTS.py` — Core Monte Carlo Tree Search algorithm implementation
-- `src/RLSystem.py` — Reinforcement learning training system and self-play logic
-- `src/NeuralNet.py` — TensorFlow/Keras neural network wrapper
-- `src/Node.py` — MCTS tree node implementation with UCB1 scoring
-- `src/TwoPlayerGame.py` — Abstract base class for two-player games
-- `src/Hex.py` — Hex game implementation with hexagonal board
-- `src/Nim.py` — Nim game implementation
-- `src/Board.py` — Hex board representation and visualization
-- `src/Tournament.py` — Model evaluation and tournament system
-- `src/MyHexActor.py` — Hex-specific actor wrapper for online play
-- `src/MyActorClient.py` — Online tournament client
-- `src/config.py` — Centralized configuration for all parameters
-- `src/helpers.py` — Utility functions for UCT scoring and action selection
-- `ActorClient.py` — Base client for server communication
-- `play_online.py` — Script for online tournament participation
-- `server.crt` — SSL certificate for server connection
+- `src/MCTS.py`: Core Monte Carlo Tree Search algorithm implementation
+- `src/RLSystem.py`: Reinforcement learning training system and self-play logic
+- `src/NeuralNet.py`: TensorFlow/Keras neural network wrapper
+- `src/Node.py`: MCTS tree node implementation with UCB1 scoring
+- `src/TwoPlayerGame.py`: Abstract base class for two-player games
+- `src/Hex.py`: Hex game implementation with hexagonal board
+- `src/Nim.py`: Nim game implementation
+- `src/Board.py`: Hex board representation and visualization
+- `src/Tournament.py`: Model evaluation and tournament system
+- `src/MyHexActor.py`: Hex-specific actor wrapper for online play
+- `src/MyActorClient.py`: Online tournament client
+- `src/config.py`: Centralized configuration for all parameters
+- `src/helpers.py`: Utility functions for UCT scoring and action selection
+- `ActorClient.py`: Base client for server communication
+- `play_online.py`: Script for online tournament participation
 
 ## Games Implemented
 
